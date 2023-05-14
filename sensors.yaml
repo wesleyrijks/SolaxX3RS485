@@ -4,7 +4,7 @@
   - platform: command_line
     name: solax
     command: "python3 ./SolaxX3RS485/__init__.py"
-    scan_interval: 5
+    scan_interval: 1
     value_template: 'OK'
     json_attributes:
       - name
