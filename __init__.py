@@ -96,4 +96,4 @@ def fetch(port, baudrate, parity, stopbits, timeout):
     
     print(json.dumps(vals))
 
-fetch("/dev/ttyUSBBBBBB, 9600, "N", 1, 1)
+fetch("/dev/ttyUSBBBBBB", 9600, "N", 1, 1)
